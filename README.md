@@ -6,13 +6,24 @@ https://github.com/srikanthstorm
 https://github.com/srikanthstorm/udagramMicroService
 
 ### Docker Hub Public Images
-stormcode/udacity-frontend
+https://hub.docker.com/repository/docker/stormcode/udacity-frontend
 
-stormcode/reverseproxy
+https://hub.docker.com/repository/docker/stormcode/reverseproxy
 
-stormcode/userfeed
+https://hub.docker.com/repository/docker/stormcode/userfeed
 
-stormcode/userdata
+https://hub.docker.com/repository/docker/stormcode/userdata
+
+### How to run it locally?
+
+```
+cd udacity-c3-deployment/docker
+docker-compose up
+
+```
+
+
+
 
 # About the Project - Udagram Image Filtering Microservice
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice. Following are the services involved in this project:
@@ -29,7 +40,8 @@ Correspondingly, the project is split into following parts:
 1. Nginx as a reverse-proxy server, when different backend services are running on the same port, then a reverse proxy server directs client requests to the appropriate backend server and retrieves resources on behalf of the client.  
 
 ## Clone the project GitHub repository
-Create a project folder in your local computer and clone the following Git repository - https://github.com/udacity/nd990-c3-microservices-v1
+Create a project folder in your local computer and clone the following Git repository - https://github.com/srikanthstorm/udagramMicroService
+
 
 ## Dependencies and Getting Setup
 > _tip_: this frontend is designed to work with the RestAPI backends. It is recommended you stand up the backend first, test using Postman, and then the frontend should integrate.
