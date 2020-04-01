@@ -7,8 +7,11 @@ https://github.com/srikanthstorm/udagramMicroService
 
 ### Docker Hub Public Images
 stormcode/udacity-frontend
+
 stormcode/reverseproxy
+
 stormcode/userfeed
+
 stormcode/userdata
 
 # About the Project - Udagram Image Filtering Microservice
