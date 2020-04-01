@@ -29,7 +29,8 @@ Correspondingly, the project is split into following parts:
 1. Nginx as a reverse-proxy server, when different backend services are running on the same port, then a reverse proxy server directs client requests to the appropriate backend server and retrieves resources on behalf of the client.  
 
 ## Clone the project GitHub repository
-Create a project folder in your local computer and clone the following Git repository - https://github.com/udacity/nd990-c3-microservices-v1
+Create a project folder in your local computer and clone the following Git repository - https://github.com/srikanthstorm/udagramMicroService
+
 
 ## Dependencies and Getting Setup
 > _tip_: this frontend is designed to work with the RestAPI backends. It is recommended you stand up the backend first, test using Postman, and then the frontend should integrate.
